@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from version control
-                git branch:'main', url: 'https://github.com/lakshman017/python_laksh.git/'
+                git branch:'main', url: 'https://github.com/lakshman017/python_laksh.git'
             }
         }
  
